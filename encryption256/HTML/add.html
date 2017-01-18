@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Add Data | Secure Data</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="css/uniform.css" />
+<link rel="stylesheet" href="css/select2.css" />
+<link rel="stylesheet" href="css/matrix-style.css" />
+<link rel="stylesheet" href="css/matrix-media.css" />
+<link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!--Header-part-->
+<div id="header">
+  <h1><a href="dashboard.html">Add new data</a></h1>
+</div>
+<!--close-Header-part--> 
+
+
+<!--top-Header-menu-->
+<div id="user-nav" class="navbar navbar-inverse">
+  <ul class="nav">
+    <li  class="dropdown" id="profile-messages" ><a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle"><i class="icon icon-user"></i>  <span class="text">Welcome Piyush</span></a>
+      <ul class="dropdown-menu">
+        <li class="divider"></li>
+        <li><a href="logout.php"><i class="icon-key"></i> Log Out</a></li>
+      </ul>
+    </li>
+    
+    
+    <li class=""><a title="" href="login.html"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
+  </ul>
+</div>
+<!--close-top-Header-menu-->
+<!--start-top-serch-->
+
+<!--close-top-serch-->
+<!--sidebar-menu-->
+<div id="sidebar"><a href="#" class="visible-phone"><i class="icon icon-home"></i> Dashboard</a>
+  <ul>
+    <li><a href="index.html"><i class="icon icon-home"></i> <span>Dashboard</span></a> </li>
+    <li class="active"> <a href="add.html"><i class="icon icon-signal"></i> <span>Add New Data</span></a> </li>
+    <li> <a href="widgets.html"><i class="icon icon-inbox"></i> <span>View Submissions</span></a> </li>
+    <li> <a href="about.php"><i class="icon icon-inbox"></i> <span>About</span></a> </li>
+  </ul>
+</div>
+<div id="content">
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="index.html" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a><a href="add.html" class="current">Add new data</a> </div>
+    <h1>Form validation</h1>
+  </div>
+  <div class="container-fluid">
+    
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="widget-box">
+          <div class="widget-title"> <span class="icon"> <i class="icon-info-sign"></i> </span>
+            <h5>Numeric validation</h5>
+          </div>
+          <div class="widget-content nopadding">
+            <form class="form-horizontal" method="post" action="add.php" name="form1" id="number_validate" novalidate="novalidate">
+              
+               <div class="control-group">
+                <label class="control-label">JOB ID</label>
+                <div class="controls">
+                  <input type="text" name="jobid"/>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">OP NUM</label>
+                <div class="controls">
+                  <input type="text" name="opnum" />
+                </div>
+              <div class="form-actions">
+                  <input type="submit" value="Submit" name="Submit" class="btn btn-success">
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Footer-part-->
+<div class="row-fluid">
+  <div id="footer" class="span12"> 2013 &copy; Matrix Admin. Brought to you by <a href="http://themedesigner.in">Themedesigner.in</a> </div>
+</div>
+<!--end-Footer-part-->
+<script src="js/jquery.min.js"></script> 
+
+<script src="js/bootstrap.min.js"></script> 
+
+<script src="js/jquery.validate.js"></script> 
+<script src="js/matrix.js"></script> 
+<script src="js/matrix.form_validation.js"></script>
+</body>
+</html>
