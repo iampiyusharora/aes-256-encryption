@@ -1,6 +1,6 @@
-# projects
+# Rijndael 256-bit Encryption Function (CBC) aka AES
 
-Rijndael 256-bit Encryption Function (CBC) aka AES
+
 
 This is an Encryption and Decryption project. 
 
